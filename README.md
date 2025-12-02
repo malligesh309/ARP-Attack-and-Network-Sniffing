@@ -24,33 +24,43 @@ ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC addres
 Boot kali and Windows7 virtual machines.
 In windows 7 give the command arp -a
 ## OUTPUT:
-<img width="704" height="494" alt="image" src="https://github.com/user-attachments/assets/0f328397-9581-4c08-b3b5-3b4ccae2a7af" />
+<img width="720" height="400" alt="image" src="https://github.com/user-attachments/assets/6f001bf0-7d7f-4aca-b24f-83df29b38d8b" />
 
 
 From kali linux issue the command :
 sudo arpspoof -i eth0 -t <target system> <gateway>
 ## OUTPUT:
+<img width="876" height="684" alt="image" src="https://github.com/user-attachments/assets/e4d1e216-61b8-4357-ad4b-549338263672" />
 
-<img width="689" height="270" alt="image" src="https://github.com/user-attachments/assets/1f4709dc-06bd-4518-a1a9-0c7f3f4c132c" />
+### dsniff:
+<img width="853" height="840" alt="image" src="https://github.com/user-attachments/assets/9b9fcb37-d792-4da5-ad0c-5aff6013f597" />
 
 
- dsniff:
+
+
+
+
+
 In Metasploit open the ftp console as below. Also you can try other ftp websites ftp.vim.org
 ## OUTPUT:
 
-<img width="622" height="601" alt="image" src="https://github.com/user-attachments/assets/d186b130-c5de-4b77-8e40-b42f95d36939" />
+<img width="634" height="290" alt="image" src="https://github.com/user-attachments/assets/851279da-a2ce-4ae8-9ead-95a3571f5e7f" />
 
 
 
 In Kali issue the following commands:
 sudo dsnifff
 ## OUTPUT:
+<img width="387" height="40" alt="image" src="https://github.com/user-attachments/assets/c9a921f7-7d43-4781-a9b6-dc59c39dc2d3" />
 
-<img width="1918" height="871" alt="image" src="https://github.com/user-attachments/assets/db4abbbe-093b-4835-9c51-45378e350348" />
 
 
 Invoke the wireshark and examine the various menus  and controls of the tool:
+<img width="1501" height="773" alt="image" src="https://github.com/user-attachments/assets/6bd3422d-d1aa-40cb-b9cd-cbae9c94fd64" />
 
+
+ettercap
+<img width="818" height="476" alt="image" src="https://github.com/user-attachments/assets/e04afa4b-16fe-4850-affc-a7ef164d1104" />
 
 ## RESULT:
 The kali linux tools for ARP Attack and Network Sniffing were identified successfully
